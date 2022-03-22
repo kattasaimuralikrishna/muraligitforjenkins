@@ -10,12 +10,6 @@ pipeline{
                 '''
             }
         }
-        stage('scm'){
-            steps{
-                git url: 'https://github.com/kattasaimuralikrishna/muraligitforjenkins.git'
-            }
-            
-        }
         stage('run'){
            steps{
                  sh '''
