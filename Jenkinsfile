@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh '''
                 sudo apt update
-                echo "ramma"
+                echo "ramudu good"
 
                 '''
             }
