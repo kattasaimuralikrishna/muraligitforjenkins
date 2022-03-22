@@ -1,4 +1,7 @@
 #!/bin/bash
-MURALI=katta
+count=0
 
-echo "$MURALI"
+while [ $count -le 10 ]
+do
+echo "murali"
+done
