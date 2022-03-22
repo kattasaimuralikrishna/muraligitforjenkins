@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh '''
                 sudo apt update
-                echo "good"
+                echo "good sai"
 
                 '''
             }
