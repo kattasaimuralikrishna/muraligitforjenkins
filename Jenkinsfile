@@ -17,11 +17,13 @@ pipeline{
             
         }
         stage('run'){
-            sh '''
+           steps{
+                 sh '''
             chmod 777 ./run.sh
             ./run.sh
             
             '''
+           }
         }
     }
 }
