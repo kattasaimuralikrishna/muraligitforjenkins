@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('scm'){
+        stage('SCM'){
             steps{
                git 'https://github.com/GitPracticeRepo/java11-examples.git'
             }
