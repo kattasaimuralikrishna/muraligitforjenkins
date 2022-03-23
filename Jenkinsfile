@@ -1,6 +1,16 @@
 pipeline{
     agent any
     stages{
+        stage('scm'){
+            steps{
+               git 'https://github.com/GitPracticeRepo/java11-examples.git'
+            }
+        }
+        stage('build'){
+            steps{
+                sh 'mvn clean package'
+            }
+        }
         stage('shcommnd'){
             steps{
                 sh '''
