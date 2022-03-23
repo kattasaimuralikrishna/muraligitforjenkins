@@ -6,7 +6,7 @@ pipeline{
                git 'https://github.com/GitPracticeRepo/java11-examples.git'
             }
         }
-        stage('build'){
+        stage('Build'){
             steps{
                 sh 'mvn clean package'
             }
